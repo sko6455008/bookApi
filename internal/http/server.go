@@ -41,5 +41,5 @@ func Run() {
 	e.GET("/health", func(c echo.Context) error {
 		return c.String(http.StatusOK, "ok")
 	})
-	e.Logger.Fatal(e.Start(":1323"))
+	e.Logger.Fatal(e.Start(":1232"))
 }
